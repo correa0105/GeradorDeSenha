@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="./assets/js/bundle.js"></script>
+
+    <title>Gerador De Senha</title>
+
+</head>
+
+<body>
+    <div class="password-generator-content">
+        <h1 class="title">Gerador De Senha</h1>
+        <ul class="optionsPassword">
+            <p>CONFIGURAÇÕES DA SENHA</p>
+            <li>ADICIONAR NUMEROS: <input class="checkboxItem" type="checkbox" name="" id="withNumbers"></li>
+            <li>ADICIONAR LETRAS MAIÚSCULAS: <input class="checkboxItem" type="checkbox" name="" id="withUppercase"></li>
+            <li>ADICIONAR LETRAS MINÚSCULAS: <input class="checkboxItem" type="checkbox" name="" id="withLowercase"></li>
+            <li>ADICIONAR LETRAS E SÍMBOLOS: <input class="checkboxItem" type="checkbox" name="" id="withSimbols"></li>
+        </ul>
+        <p> QUANTIDADE DE CARACTERES <span id="qntdCaracter"></span></p>
+        <input id="range" value="20" type="range" min="15" max="25">
+        <div id="password"></div>
+        <button id="passwordButton">GERAR SENHA</button>
+    </div>
+</body>
+
+</html>
