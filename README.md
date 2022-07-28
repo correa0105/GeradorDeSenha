@@ -6,6 +6,8 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/correa0105/GeradorDeSenha?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/correa0105/GeradorDeSenha?style=for-the-badge)
 
+<img src="./assets/exemplo.png" alt="Exemplo do Projeto">
+
 # ☕ Descrição do Projeto
 
 Este projeto consiste em um gerador de senha segura, ele permite definir os parametros da senha que será gerada.
